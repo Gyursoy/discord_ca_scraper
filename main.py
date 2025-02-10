@@ -17,7 +17,7 @@ def main():
 
     # Initialize Discord
     discord_token = os.getenv('DISCORD_TOKEN')
-    channel_id = int(os.getenv('CHANNEL_ID'))
+    channel_id = int(os.getenv('DISCORD_CHANNEL_ID'))
     print(channel_id)
     if not discord_token:
         print("Discord token not found in environment variables")
